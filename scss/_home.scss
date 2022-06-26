@@ -1,0 +1,25 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    &--last {
+      color: $color-text-default;
+      font-weight: 700;
+    }
+  }
+
+  &__descr{
+      margin: 3rem auto;
+      width: 70%;
+    
+  }
+}

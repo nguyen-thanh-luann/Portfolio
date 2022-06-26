@@ -1,0 +1,130 @@
+
+main{
+
+  height:100vh;
+}
+
+.about {
+  background: #000;
+  
+  .title{
+
+    display: flex;
+    justify-content: center;
+
+    h2{
+      padding-top: 7rem;
+      font-size: 4rem;
+      font-weight: bold;
+      color: $color-text-default;
+    }
+
+  }
+
+  .content{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    background: #000;
+
+
+    .personal-info{
+      padding: 2rem;
+      margin-left: 5%;
+      width: 50%;
+
+      .info{
+        display: flex;
+
+        h4{
+          margin-top: 2rem;
+          color: rgb(175, 169, 169);
+
+          span{
+            color: rgb(232, 232, 232);
+      
+          }
+        }
+
+        .left{
+
+        }
+
+        .right{
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .experience{
+      padding: 1rem;
+      width: 45%;
+
+
+      .block{
+        border: 1px solid #fff;
+        width: 15rem;
+        height: 8rem;
+        margin: 1rem;
+        display: inline-block;
+
+      }
+
+    }
+  }
+
+
+  .skills{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 2rem;
+
+    .title{
+      margin-top: 1rem;
+      display: flex;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .skill-group{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+
+      .column{
+
+
+        .skill-block{
+          margin-top: 2rem;
+  
+
+          .skill-img{
+            width: 100%;  
+            background-color: #2b2a2a;
+            padding: 2rem 2rem;
+            border-radius: 50%;
+
+
+  
+            img{
+              width: 5rem;
+            }
+          }
+  
+          p{
+            text-align: center;
+            padding-top: 0.5rem;
+            text-transform: uppercase;
+          }
+        }
+
+      }
+
+
+
+    }
+  }
+  
+}
