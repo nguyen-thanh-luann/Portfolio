@@ -64,26 +64,26 @@ function slideShowPortfolioImg(){
 }
 
 const caraImgList = [
-  '../assets/img/caraAdminDashbar.png',
-  '../assets/img/caraMen.png',
-  '../assets/img/caraClientHome.png',
-  '../assets/img/caraProductDetail.png',
-  '../assets/img/caraProductManager.png',
-  '../assets/img/caraWomen.png',
+  './assets/img/caraAdminDashbar.png',
+  './assets/img/caraMen.png',
+  './assets/img/caraClientHome.png',
+  './assets/img/caraProductDetail.png',
+  './assets/img/caraProductManager.png',
+  './assets/img/caraWomen.png',
 ]
 
 const ntlImgList = [
-  '../assets/img/ntlShop.png',
-  '../assets/img/ntlShop2.png',
-  '../assets/img/ntlShopLogin.png',
-  '../assets/img/ntlShopRegister.png',
+  './assets/img/ntlShop.png',
+  './assets/img/ntlShop2.png',
+  './assets/img/ntlShopLogin.png',
+  './assets/img/ntlShopRegister.png',
 ]
 
 const portfolioImgList = [
-  '../assets/img/portfolioAbout.png',
-  '../assets/img/portfolioContact.png',
-  '../assets/img/portfolioHome.png',
-  '../assets/img/portfolioProjects.png',
+  './assets/img/portfolioAbout.png',
+  './assets/img/portfolioContact.png',
+  './assets/img/portfolioHome.png',
+  './assets/img/portfolioProjects.png',
 ]
 
 
