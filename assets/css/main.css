@@ -252,11 +252,24 @@ main {
 }
 
 .about .content .experience .block {
-  border: 1px solid #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
   width: 15rem;
   height: 8rem;
   margin: 1rem;
   display: inline-block;
+  padding: 0.5rem;
+}
+
+.about .content .experience .block h3 {
+  text-transform: uppercase;
+}
+
+.about .content .experience .block span {
+  font-size: 4rem;
+  display: block;
+  margin: 0.5rem;
+  color: #ffb400;
 }
 
 .about .skills {

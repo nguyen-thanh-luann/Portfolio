@@ -62,11 +62,24 @@ main{
 
 
       .block{
-        border: 1px solid #fff;
+        border: 1px solid #ccc;
+        border-radius: 20px;
         width: 15rem;
         height: 8rem;
         margin: 1rem;
         display: inline-block;
+        padding: 0.5rem;
+
+        h3{
+          text-transform: uppercase;
+        }
+
+        span{
+          font-size: 4rem;
+          display: block;
+          margin: 0.5rem;
+          color: $color-text-default;
+        }
 
       }
 
